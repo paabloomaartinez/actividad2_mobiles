@@ -34,7 +34,7 @@ export default function EventDetailScreen() {
       <Text style={styles.title}>{event.title}</Text>
       <Text style={styles.text}>📅 {event.date}</Text>
       <Text style={styles.text}>🏟️ {event.location}</Text>
-      <Text style={styles.text}>🏅 {event.sport}</Text>
+      <Text style={styles.text}>🏀 {event.sport}</Text>
       <Text style={styles.description}>{event.description}</Text>
     </SafeAreaView>
   );
