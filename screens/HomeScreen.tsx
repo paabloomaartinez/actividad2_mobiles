@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import { FlatList, SafeAreaView, StyleSheet, Text } from 'react-native';
 import EventCard from '../components/EventCard';
 import { useNavigation } from '@react-navigation/native';
 import { useEventContext } from '../context/EventContext';
