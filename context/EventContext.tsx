@@ -25,6 +25,6 @@ export const EventProvider = ({ children }: { children: ReactNode }) => {
 
 export const useEventContext = (): EventContextType => {
   const context = useContext(EventContext);
-  if (!context) throw new Error('useEventContext must be used inside EventProvider');
+  if (!context) throw new Error('useEventContext tiene que estar dentro de EventProvider');
   return context;
 };
